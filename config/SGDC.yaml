@@ -1,12 +1,12 @@
 model_params:
-  name: 'resnet50'
+  name: 'U_Res50'
   in_channels: 3
   pretrained: True
   is_camloss: False
   is_regression: False
 
 data_params:
-  name: 'ResnetDataset'
+  name: 'Unet_ResnetDataset'
   data_path: "file-class.json"
   train_batch_size: 8
   val_batch_size: 50
@@ -18,7 +18,7 @@ data_params:
   mixup: False
 
 exp_params:
-  name: 'Resnetperiment'
+  name: 'Unet_Resnetperiment'
   LR: 0.00005
   weight_decay: 0.0
   scheduler_gamma: 0.95
@@ -30,7 +30,7 @@ trainer_params:
 
 logging_params:
   save_dir: "logs/"
-  name: "resnet50"
+  name: "U_Res50"
 
 running_type: 'train'
 
