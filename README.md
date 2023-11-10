@@ -5,7 +5,7 @@ pretrained_model: https://drive.google.com/file/d/1h_ZDd3udIzi4BUWGwbO7Ge5rpdT9V
 
 PSMsFIGC Dataset:https://drive.google.com/file/d/131VxK1jH4pjYEBNuk7WbMkpenltklZFX/view?usp=sharing
 
-trained models in the experiment:
+trained models in the experiment:https://drive.google.com/file/d/1xu4R6MLPHkuR8qDSXnzqD9iJ4AVSIYbo/view?usp=drive_link
 
 If you want to use it, unzip it in the root directory, Then you can change the property in the config file to reproduce the outcome with the checkpoint of trained models.
 
