@@ -7,7 +7,7 @@ PSMsFIGC Dataset:https://drive.google.com/file/d/131VxK1jH4pjYEBNuk7WbMkpenltklZ
 
 trained models in the experiment:https://drive.google.com/file/d/1xu4R6MLPHkuR8qDSXnzqD9iJ4AVSIYbo/view?usp=drive_link
 
-If you want to use it, unzip it in the root directory, Then you can change the property in the config file to reproduce the outcome with the checkpoint of trained models.
+If you want to use trained models, unzip them in the root directory, Then you can change the property in the config file to reproduce the outcome with the checkpoint of trained models.
 
 The changed PropertyName is as follows:
 
